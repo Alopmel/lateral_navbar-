@@ -1,0 +1,77 @@
+/* Main app */
+.header {
+  padding-top: 12px;
+  background: #fff;
+}
+
+.content {
+  padding: 20px;
+}
+/* Sider */
+.sider.ant-layout-sider {
+  flex: 0 0 250px !important; 
+  max-width: 250px !important; 
+  min-width: 250px !important;
+  width: 250px !important; 
+
+}
+
+.sider.ant-layout-sider-collapsed{
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+}
+
+
+
+.sider {
+  height: 100vh;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.logo{
+  margin: 30px 0;
+  width: 9.75rem;
+}
+
+.logoP{
+  margin: 30px 0;
+  width: 2.75rem ;
+}
+.menu-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.ant-menu-item-selected{
+  background-color: #AA8DB4 !important;
+}
+
+.toggle-theme-btn{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle{
+  margin-left: -37px;
+  margin-right: 35px;
+}
+
+/* Header */
+.header-icon{
+  padding: 8px;
+  font-size: 20px;
+  color: #BFBFBF;
+  cursor: pointer;
+}
+
